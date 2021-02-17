@@ -1,4 +1,4 @@
-# lab.4.1.isEven.py
+# collatz.py
 # Author David
 
 # user inputs an integer
@@ -41,6 +41,7 @@ else:
         # print(number)  
 
 # Prints numbers list with spaces separating   
+# Citation https://www.geeksforgeeks.org/print-lists-in-python-4-different-ways/
 print(*numbers, sep=' ')
 
     
