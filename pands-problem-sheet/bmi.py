@@ -14,12 +14,14 @@ weight = int(input("Enter weight: "))
 height = int(input("Enter height: "))
 
 
+# Location of bmi calculation
+# https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator
 # Test calculations 
-#bmi = weight / (height * height)
-#bmi = weight / ((height * height)/100)
-#bmi = weight / ((height * height)/10000)
+# bmi = weight / (height * height)
+# bmi = weight / ((height * height)/100)
+# bmi = weight / ((height * height)/10000)
 
-# Final Calculation which rounds decimal point down to two
+# Final Calculation two decimal points
 bmi = round((weight / ((height * height)/10000)),2)
 
 # Test print 

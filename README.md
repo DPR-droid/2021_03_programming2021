@@ -62,3 +62,18 @@
 ### Notes
     git commit -m "Weekly Tasks 05"
 
+
+## Take a break from it
+### Realised I needed a break
+    It was only that I wasn't shouting at the kids, that I realised I wasn't spending anytime with them. 
+### Notes
+    Yes I didn't want to be commit...ted..... :D
+
+
+## Weekly Tasks 06
+### squareroot.py
+    The program that takes a positive floating-point number as input and outputs an approximation of its square root
+### Created a new folder 
+    Another folder created in the labs folder called week06-functions
+### Notes
+    git commit -m "Weekly Tasks 06"
