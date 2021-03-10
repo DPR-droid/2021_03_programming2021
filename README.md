@@ -77,3 +77,4 @@
     Another folder created in the labs folder called week06-functions
 ### Notes
     git commit -m "Weekly Tasks 06"
+    git commit -m "Update to squareroot.py"
