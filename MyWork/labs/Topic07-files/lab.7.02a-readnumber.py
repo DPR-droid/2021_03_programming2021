@@ -1,4 +1,4 @@
-# lab.7.2.1.readtext.py
+# lab.7.02a-readnumber.py
 # Author David
 
 
@@ -9,5 +9,5 @@ def readNumber():
         return number
 
 # test it
-num = readNumber
+num = readNumber()
 print(num)

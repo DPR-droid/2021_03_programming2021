@@ -1,4 +1,4 @@
-# lab.7.2.3.readtext.py
+# lab.7.02c-count.py
 # Author David
 
 

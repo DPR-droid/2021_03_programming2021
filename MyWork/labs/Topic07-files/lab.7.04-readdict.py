@@ -1,3 +1,6 @@
+# lab.7.04-readdict.py
+# Author David
+
 import json
 filename = "testdict.json"
 

@@ -1,4 +1,4 @@
-# lab.7.1.1.readtext.py
+# lab.7.01-quiz-a.py
 # Author David
 
 # the with statement will automatically close the file

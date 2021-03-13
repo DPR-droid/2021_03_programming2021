@@ -1,4 +1,4 @@
-# lab.7.2.2.readtext.py
+# lab.7.02b-writenumber.py
 # Author David
 
 
