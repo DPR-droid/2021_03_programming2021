@@ -75,6 +75,19 @@
     The program that takes a positive floating-point number as input and outputs an approximation of its square root
 ### Created a new folder 
     Another folder created in the labs folder called week06-functions
+    Add folder pands-problem-sheet
 ### Notes
     git commit -m "Weekly Tasks 06"
     git commit -m "Update to squareroot.py"
+
+
+## Weekly Tasks 07
+### es.py
+    This program that reads in a text file and outputs the number of e's it contains
+    The program should take the filename from an argument on the command line.
+### Created a new folder 
+    Another folder created in the labs folder called week06-functions
+    Add folder pands-problem-sheet
+### Notes
+    git commit -m "Weekly Tasks 07"
+    multiple commits for this week lab sheet and task
