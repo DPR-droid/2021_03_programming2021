@@ -1,15 +1,24 @@
 # Author David
-# lab7.5.1.studentmange.py
+# lab7.6.1.studentmange.py
+
+import json
+filename = "testdict.json"
 
 students = []
+
+def writeDict(obj):
+    with open(filename, 'wt') as f:
+        json.dump(obj,f)
+
 
 def displayMenu():
     print("What would you like to do?")
     print("\t (a) Add new student")
     print("\t (v) View students")
     print("\t (s) Save students")
+    print("\t (l) Load students")
     print("\t (q) Quit")
-    choice = input("Type one letter (a/v/s/q):").strip()
+    choice = input("Type one letter (a/v/s/l/q):").strip()
     return choice
 
 def doAdd(students):
@@ -17,8 +26,11 @@ def doAdd(students):
 def doView(students):
     print("in viewing")
 def doSave(students):
-    #you will put the call to save dict here
-    print("in save")
+    writeDict(students)
+    print("Students saved")
+def doLoad(students):
+    writeDict(students)
+    print(students)
 
 #main program
 
@@ -32,7 +44,9 @@ while(choice != 'q'):
         doView(students)
     elif choice == 's':
         doSave(students)  
+    elif choice == 'l':
+        doLoad(students)  
     elif choice != 'q':
-        print("\n\nplease select either a,v or q")
+        print("\n\nplease select either a,v,s,l or q")
     choice=displayMenu()    
 
