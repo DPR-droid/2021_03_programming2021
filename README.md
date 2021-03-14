@@ -2,7 +2,7 @@
 
 ## README.md 
 ### Notes
-    The README.md file Version 01 
+    The README.md file
 
 ## Weekly Tasks 01
 ### Set up Github
