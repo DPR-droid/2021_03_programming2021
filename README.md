@@ -1,9 +1,5 @@
 # Problems 2021 Programming And Scripting
 
-## README.md 
-### Notes
-    The README.md file
-
 ## Weekly Tasks 01
 ### Set up Github
     Install the required software on your machine,
@@ -74,7 +70,7 @@
 ### squareroot.py
     The program that takes a positive floating-point number as input and outputs an approximation of its square root
 ### Created a new folder 
-    Another folder created in the labs folder called week06-functions
+    Another folder created in the labs folder called Topic06-functions
     Add folder pands-problem-sheet
 ### Notes
     git commit -m "Weekly Tasks 06"
@@ -86,8 +82,18 @@
     This program that reads in a text file and outputs the number of e's it contains
     The program should take the filename from an argument on the command line.
 ### Created a new folder 
-    Another folder created in the labs folder called week06-functions
-    Add folder pands-problem-sheet
+    Another folder created in the labs folder called Topic07-files
 ### Notes
     git commit -m "Weekly Tasks 07"
     multiple commits for this week lab sheet and task
+
+
+## Weekly Tasks 08
+### plottask.py
+    This displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 
+    in the range [0, 4] on the one set of axes.
+### Created a new folder 
+    Another folder created in the labs folder called Topic08-plotting
+    Add folder pands-problem-sheet
+### Notes
+    git commit -m "Weekly Lab 08 sheet added"
