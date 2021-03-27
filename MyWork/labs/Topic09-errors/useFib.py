@@ -8,6 +8,6 @@
 # rename 
 import myFunctions
 
-nTimes = int(input('how many:'))
+nTimes = int(input('How many:'))
 print(myFunctions.fibonacci(nTimes))
 
