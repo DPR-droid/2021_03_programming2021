@@ -1,4 +1,4 @@
-# lab8.11.plot.py
+# lab9.2.myFunctions.py
 # Author David
 
 import numpy as np
