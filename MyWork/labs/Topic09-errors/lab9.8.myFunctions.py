@@ -46,3 +46,4 @@ if __name__ == '__main__':
         assert False, 'fibonaccci missing ValueError'
         # or 
         # raise AssertionError("fibonacci no ValueError") 
+    print("all good")

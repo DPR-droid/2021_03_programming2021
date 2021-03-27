@@ -1,10 +1,14 @@
-# lab9.7.myFunctions.py
+# lab9.9.myFunctions.py
 # Author David
 
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
 def fibonacci(number):
+    if number < 0:
+        raise ValueError('number must be > 0')
+    if number == 0:
+        return []
     a = 0
     b = 1
     fibonacciSequence = [0]
@@ -18,7 +22,6 @@ def fibonacci(number):
     logging.debug("%d: %s", number, fibonacciSequence)
     
     return fibonacciSequence
-
 
 
 
