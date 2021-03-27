@@ -1,8 +1,9 @@
-# lab9.4.myFunctions.py
+# lab9.6.myFunctions.py
 # Author David
 
 def fibonacci(number):
     return[]
+
 
 
 
@@ -16,4 +17,15 @@ if __name__ == '__main__':
     assert fibonacci(0) == [], 'incorrect return for 7'
     assert fibonacci(1) == [0], 'incorrect return for 7'
 
-
+    try:
+        fibonacci(-1)
+    except ValueError:
+        # we want this exception to be thrown
+        # so this is an example where we want to do nothing
+        pass
+    else:
+        # if the exception was not trown we should throw
+        # assertion error
+        assert False, 'fibonaccci missing ValueError'
+        # or 
+        # raise AssertionError("fibonacci no ValueError") 
