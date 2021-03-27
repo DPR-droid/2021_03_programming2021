@@ -1,10 +1,12 @@
-# lab9.7.myFunctions.py
+# lab9.8.myFunctions.py
 # Author David
 
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
 def fibonacci(number):
+    if number == 0:
+        return []
     a = 0
     b = 1
     fibonacciSequence = [0]
