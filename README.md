@@ -23,30 +23,30 @@ This repository is used for the labs in the course, it also includes early versi
     git commit -m "Add Directory"
     git commit -m "Update Directory"
     git commit -m "Lectures for week 02"
-    git commit -m " Lab 02"
+    git commit -m "Weekly Lab 02"
 
 
 ##  Labs 03
 ### Created a new folder 
     Labs in folder Code\Week 03
 ### Notes
-    git commit -m " Lab 03"
+    git commit -m "Weekly Lab 03"
 
 
 ##  Labs 04
 ### Created a new folder 
     Labs in folder Code\Week 04
 ### Notes
-    git commit -m " Lab 04"
+    git commit -m "Weekly Lab 04"
     Updated collatz.py to print numbers list with spaces separating
-    git commit -m " Lab 04"  
+    git commit -m "Weekly Lab 04"  
 
 
 ##  Labs 05
 ### Created a new folder 
     Labs folder with sub-directory Topic05-datastructures created
 ### Notes
-    git commit -m " Labs 05"
+    git commit -m "Weekly Labs 05"
 
 
 ## Take a break from it
@@ -61,7 +61,7 @@ This repository is used for the labs in the course, it also includes early versi
     Another folder created in the labs folder called Topic06-functions
     Add folder pands-problem-sheet
 ### Notes
-    git commit -m " Labs 06"
+    git commit -m "Weekly Labs 06"
     git commit -m "Update to squareroot.py"
 
 
@@ -69,7 +69,7 @@ This repository is used for the labs in the course, it also includes early versi
 ### Created a new folder 
     Another folder created in the labs folder called Topic07-files
 ### Notes
-    git commit -m " Labs 07"
+    git commit -m "Weekly Labs 07"
     multiple commits for this week Lab Sheet and Lab
 
 
