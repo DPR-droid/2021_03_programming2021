@@ -9,3 +9,4 @@ logFilename = path + 'access.log'
 df = pd.read_csv(logFilename, sep=' ', header=None)
 
 print(df)
+print(df.iloc[0])
