@@ -1,4 +1,4 @@
-# lab11.3.createdata.py
+# lab11.5.createdata.py
 # Author David
 
 
@@ -24,6 +24,18 @@ print(type(df.describe()))
 
 
 # Write file to csv
-path = "./data/"
-csvfilename = path +  'grades.csv'
+csvfilename = 'grades.csv'
 df.to_csv(csvfilename)
+
+# Write an excel file
+excelfilename = 'grades.xlsx'
+df.to_excel(excelfilename, index=False, sheet_name='data')
+with pd.ExcelWriter(excelfilename, engine='openpyxl', mode='a') as writer:
+    df.describe().to_excel(writer, sheet_name="summary")
+
+# Calculte and print the mean of the grades
+mean = df.describe().loc['mean','grade']
+print(mean)
+# or 
+mean = df['grade'].mean()
+print(mean)

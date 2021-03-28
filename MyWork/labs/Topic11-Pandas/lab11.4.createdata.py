@@ -24,5 +24,11 @@ print(type(df.describe()))
 
 
 # Write file to csv
-csvfilename = 'grades.csv'
+path = "./data/"
+csvfilename = path +  'grades.csv'
 df.to_csv(csvfilename)
+
+
+# Write an excel file
+excelfilename = path + 'grades.xlsx'
+df.to_excel(excelfilename, index=False, sheet_name='data')
