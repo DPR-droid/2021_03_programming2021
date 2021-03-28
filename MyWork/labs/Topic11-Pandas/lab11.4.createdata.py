@@ -26,8 +26,3 @@ print(type(df.describe()))
 # Write file to csv
 csvfilename = 'grades.csv'
 df.to_csv(csvfilename)
-
-
-# Write an excel file
-excelfilename = 'grades.xlsx'
-df.to_excel(excelfilename, index=False, sheet_name='data')
