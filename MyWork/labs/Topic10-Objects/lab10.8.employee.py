@@ -1,4 +1,4 @@
-# lab10.7.employee.py
+# lab10.8.employee.py
 # Author David
 import datetime as dt
 from timesheetentry import *
@@ -17,6 +17,12 @@ class Employee:
         now = dt.datetime.now
         timesheetentry = Timesheetentry(project, now, minutes)
         self.timesheets.append(timesheetentry)
+
+    def gettotaltime(self):
+        total_minutes = 0
+        for ts in self.timesheets:
+            total_minutes += ts.duration
+        return total_minutes
 
 if __name__ == '__main__':
     test = Employee('some', 'one')
