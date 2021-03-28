@@ -1,4 +1,4 @@
-# lab10.1.timesheetentry.py
+# lab10.2.timesheetentry.py
 # Author David
 
 class Timesheetentry:
