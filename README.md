@@ -1,6 +1,9 @@
 # Problems 2021 Programming And Scripting
 
-## Weekly Tasks 01
+# Notes
+This repository is used for the labs in the course, it also includes early versions of the pands-problem-sheet before transferring them to their own repository.
+
+##  Labs 01
 ### Set up Github
     Install the required software on your machine,
     Pull the sample code in my repository to your machine,
@@ -12,11 +15,7 @@
     git commit -m "Initial commit"
 
 
-## Weekly Tasks 02
-### bmi.py
-    This program calculate the users BMI
-    The inputs are the person's height in centimetres and weight in kilograms.
-    The output is their weight divided by their height in metres squared.
+##  Labs 02
 ### Created a new folder 
     Labs in folder Code\Week 02
 ### Notes
@@ -24,39 +23,30 @@
     git commit -m "Add Directory"
     git commit -m "Update Directory"
     git commit -m "Lectures for week 02"
-    git commit -m "Weekly Task 02"
+    git commit -m " Lab 02"
 
 
-## Weekly Tasks 03
-### secondstring.py
-    The program that takes asks a user to input a string and 
-    outputs every second letter in reverse order
+##  Labs 03
 ### Created a new folder 
     Labs in folder Code\Week 03
 ### Notes
-    git commit -m "Weekly Task 03"
+    git commit -m " Lab 03"
 
 
-## Weekly Tasks 04
-### collatz.py
-    The program will tell the user if the number is even or odd
-    User inputs an integer
-    Using an if/else statement
+##  Labs 04
 ### Created a new folder 
     Labs in folder Code\Week 04
 ### Notes
-    git commit -m "Weekly Task 04"
+    git commit -m " Lab 04"
     Updated collatz.py to print numbers list with spaces separating
-    git commit -m "Weekly Task 04"  
+    git commit -m " Lab 04"  
 
 
-## Weekly Tasks 05
-### secondstring.py
-    The program that outputs whether or not today is a weekday
+##  Labs 05
 ### Created a new folder 
     Labs folder with sub-directory Topic05-datastructures created
 ### Notes
-    git commit -m "Weekly Tasks 05"
+    git commit -m " Labs 05"
 
 
 ## Take a break from it
@@ -66,35 +56,45 @@
     Yes I didn't want to be commit...ted..... :D
 
 
-## Weekly Tasks 06
-### squareroot.py
-    The program that takes a positive floating-point number as input and outputs an approximation of its square root
+##  Labs 06
 ### Created a new folder 
     Another folder created in the labs folder called Topic06-functions
     Add folder pands-problem-sheet
 ### Notes
-    git commit -m "Weekly Tasks 06"
+    git commit -m " Labs 06"
     git commit -m "Update to squareroot.py"
 
 
-## Weekly Tasks 07
-### es.py
-    This program that reads in a text file and outputs the number of e's it contains
-    The program should take the filename from an argument on the command line.
+##  Labs 07
 ### Created a new folder 
     Another folder created in the labs folder called Topic07-files
 ### Notes
-    git commit -m "Weekly Tasks 07"
-    multiple commits for this week lab sheet and task
+    git commit -m " Labs 07"
+    multiple commits for this week Lab Sheet and Lab
 
 
-## Weekly Tasks 08
-### plottask.py
-    This displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 
-    in the range [0, 4] on the one set of axes.
+##  Labs 08
 ### Created a new folder 
     Another folder created in the labs folder called Topic08-plotting
     Add folder pands-problem-sheet
 ### Notes
     git commit -m "Weekly Lab 08 sheet added"
-    git commit -m "Weekly Task 08 added"
+    git commit -m "Weekly Lab 08 added"
+
+##  Labs 09
+### Created a new folder 
+    Another folder created in the labs folder called Topic09-errors
+### Notes
+    git commit -m "Weekly Lab Sheet 09"
+
+##  Labs 10
+### Created a new folder 
+    Another folder created in the labs folder called Topic10-Objects
+### Notes
+    git commit -m "Weekly Lab Sheet 10"
+
+##  Labs 11
+### Created a new folder 
+    Another folder created in the labs folder called Topic11-Pandas
+### Notes
+    git commit -m "Weekly Lab Sheet 11"
